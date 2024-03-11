@@ -7,7 +7,9 @@ int main() {
 	for (int i = 0; i < 8; i++) {
 		for (int j = 1; j <= 10; j++) {
 			cout << cuuchuong[i] << " x " << j << " = " << cuuchuong[i] * j << endl;
+			//dung endl or "\t"
 		}
+		cout<<endl;
 	}
 		return 0;
 	}
